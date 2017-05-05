@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BtnConfirm">
+        <attr name="text" format="string"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="back_color" format="color"/>
+        <attr name="corners_radius" format="dimension"/>
+    </declare-styleable>
+</resources>

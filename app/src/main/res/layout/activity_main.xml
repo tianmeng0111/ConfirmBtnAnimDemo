@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tm.example.confirmbtnanimdemo.MainActivity"
+    android:padding="20dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="initial"
+        android:onClick="initial"/>
+
+    <com.tm.example.confirmbtnanimdemo.view.BtnConfirm
+        android:id="@+id/btn_confirm"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:text="Confirm"
+        app:text_size="16sp"
+        app:back_color="@color/colorTest"
+        app:corners_radius="4dp"
+        />
+
+</LinearLayout>
